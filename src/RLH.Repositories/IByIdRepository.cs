@@ -10,8 +10,8 @@ namespace RLH.Repositories
     /// <typeparam name="T">Base type to query</typeparam>
     public interface IByIdRepository<T>
     {
-        public Task<T> GetByIdAsync(string Id);
-        public Task<bool> ExistsByIdAsync(string Id);
+        public Task<T> GetByIdAsync(string id);
+        public Task<bool> ExistsByIdAsync(string id);
 
     }
 }

@@ -8,7 +8,7 @@ namespace RLH.Repositories
     /// <typeparam name="T">Base type to query</typeparam>
     public interface IEditRepository<T>
     {
-        public Task<T> CreateAsync(string Id);
+        public Task<T> CreateAsync(T entity);
         public Task<Result<T>> UpdateAsync(T entity);
         public Task<bool> DeleteAsync(T entity);
 
