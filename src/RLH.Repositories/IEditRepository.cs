@@ -9,7 +9,7 @@ namespace RLH.Repositories
     public interface IEditRepository<T>
     {
         public Task<T> CreateAsync(T entity);
-        public Task<Result<T>> UpdateAsync(T entity);
+        public Task<ResultOf<T>> UpdateAsync(T entity);
         public Task<bool> DeleteAsync(T entity);
 
 
