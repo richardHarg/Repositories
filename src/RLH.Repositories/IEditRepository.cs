@@ -1,4 +1,4 @@
-﻿using RLH.Result;
+﻿using RLH.Results;
 
 namespace RLH.Repositories
 {

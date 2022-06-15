@@ -1,6 +1,5 @@
 ﻿using RLH.QueryParameters.Entities;
 using RLH.QueryParameters.Interfaces;
-using RLH.Result;
 
 
 namespace RLH.Repositories
