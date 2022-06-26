@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Interface Name="RLH.Repositories.IByIdRepository&lt;T&gt;">
+    <Position X="0.75" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>IByIdRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RLH.Repositories.IByNameRepository&lt;T&gt;">
+    <Position X="3.75" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>IByNameRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RLH.Repositories.ICollectionRepository&lt;T&gt;">
+    <Position X="0.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>ICollectionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RLH.Repositories.IEditRepository&lt;T&gt;">
+    <Position X="3.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAIAAAIA=</HashCode>
+      <FileName>IEditRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
