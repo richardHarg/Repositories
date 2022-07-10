@@ -1,5 +1,4 @@
-﻿using RLH.QueryParameters.Entities;
-using RLH.QueryParameters.Interfaces;
+﻿using RLH.QueryParameters.Core.Entities;
 
 
 namespace RLH.Repositories
@@ -10,7 +9,7 @@ namespace RLH.Repositories
     /// <typeparam name="T">Base type to query</typeparam>
     public interface ICollectionRepository<T>
     {
-        public Task<IEnumerable<T>> GetAsync(PaginationParameters paginationParameters,IQueryingParameters queryParameters);
+        public Task<IEnumerable<T>> GetAsync(IPaginationParameters paginationParameters,IQueryingParameters queryParameters);
         public Task<int> CountAsync(IQueryingParameters queryParameters);
     }
 }
