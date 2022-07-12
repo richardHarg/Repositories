@@ -9,7 +9,6 @@ namespace RLH.Repositories
     /// <typeparam name="T">Base type to query</typeparam>
     public interface ICollectionRepository<T>
     {
-        public Task<IEnumerable<T>> GetAsync(IPaginationParameters paginationParameters,IQueryingParameters queryParameters);
-        public Task<int> CountAsync(IQueryingParameters queryParameters);
+        public Task<IEnumerable<T>> GetAsync();
     }
 }

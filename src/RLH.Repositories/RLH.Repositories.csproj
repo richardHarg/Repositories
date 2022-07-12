@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="RLH.QueryParameters" Version="5.0.0" />
     <PackageReference Include="RLH.Result" Version="5.0.0" />
   </ItemGroup>
 
