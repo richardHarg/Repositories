@@ -9,6 +9,6 @@ namespace RLH.Repositories
     public interface IDynamicPaginatedCollectionRepository<T>
     {
         public Task<IEnumerable<T>> GetAsync(int pageSize,int pageNumber,string dynamicWhere,string dynamicOrderBy);
-        public Task<int> CountAsync(string dynamicWhere, string dynamicOrderBy);
+        public Task<int> CountAsync(string dynamicWhere);
     }
 }

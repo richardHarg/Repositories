@@ -1,4 +1,4 @@
-﻿using RLH.QueryParameters.Core.Entities;
+﻿
 
 
 namespace RLH.Repositories
